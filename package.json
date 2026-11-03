@@ -1,0 +1,13 @@
+{
+  "name": "prompt-injection-demo",
+  "version": "1.0.0",
+  "description": "CS440 live demo: direct and indirect prompt injection against a support chatbot, with defences on or off.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
