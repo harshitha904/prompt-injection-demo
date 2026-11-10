@@ -31,9 +31,10 @@ If a model name isn't found, check https://ollama.com/library for the current sm
 ## Run the demo
 
 1. Unzip the folder and open a terminal inside it.
-2. (Only if you're using Gemini or Claude) Copy `.env.example` to a new file named `.env`, and paste your key after `GEMINI_API_KEY=` or `ANTHROPIC_API_KEY=`.
+2. (Only if you're using Gemini or Claude) Copy `.env.example` to a new file named `.env`, then fill in **your own** API key after `GEMINI_API_KEY=` or `ANTHROPIC_API_KEY=`. The repo doesn't include any keys, so the cloud models won't appear until you add one (see "What you need" above for where to get them).
    - Mac/Linux: `cp .env.example .env`
    - Windows: `copy .env.example .env`
+   - Example: `GEMINI_API_KEY=paste-your-key-here` (no spaces or quotes needed)
 3. Make sure the Ollama app is open.
 4. Start the demo: `npm start`. The terminal lists the models it found.
 5. Open **http://localhost:3000** in your browser.
